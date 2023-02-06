@@ -78,7 +78,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34,49,52,0.9);
+  background-color: rgba(255,255,255,255);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -86,7 +86,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -101,7 +101,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: black;
   display: block;
   float: left;
   transition: all 0.5s;
@@ -177,19 +177,45 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+
+
+.footer02 {
+ color: black;
+ background: #E8E4E4;
+ text-align: left;
+ padding: 10px;
+}
+.footer02 a {
+ color: black;
+ text-decoration: none;
+ margin: 30px;
+}
+.footer02 a:hover {
+ text-decoration: underline;
+}
+.footer02 .menu {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.footer02 .menu li {
+ margin: 0;
+ padding: 0 30px;
+}
+.footer02 .countainer {
+ margin: 10px 50px 20px 0;
+ padding: 20px 0 0 0;
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
+
+
+
+
+
 
 .menu-icon {
   color: white;
@@ -213,10 +239,11 @@ footer {
     height: 990px;
   }
 
-  footer {
+  footer02 {
     text-align: center;
   }
 }
+
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
