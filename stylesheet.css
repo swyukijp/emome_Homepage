@@ -17,25 +17,6 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
 
 .btn-wrapper {
   text-align: center;
@@ -49,6 +30,7 @@ a {
   background-color: #239b76;
 }
 
+/*
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
@@ -58,18 +40,119 @@ a {
   background-color: #55acee;
 }
 
+.instagram {
+  color: #FFF;
+  border-radius: 7px;
+  position: relative;
+  display: inline-block;
+  height: 45px;
+  width: 190px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow: hidden;
+  text-decoration:none;
+}
+*/
+
+
+.example { white-space: nowrap;}
+
+.example img { width: 100%; }
+
+.example {
+  position: absplute;
+  }
+
+.example h1 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  font-family :Quicksand, sans-serif;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-100%);
+  margin:0;
+  padding:0;
+  /*文字の装飾は省略*/
+  }
+
+  .example p {
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family :Quicksand, sans-serif;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-10%,-10%);
+    -webkit-transform: translate(-10%,-10%);
+    transform: translate(-50%,40%);
+    margin:0;
+    padding:0;
+    /*文字の装飾は省略*/
+    }
+
+.example img {
+  width: 100%;
+  }
+
+
+
+.heading {
+  padding-right: 120px;
+}
+
+.heading_1 {
+  padding-left: 130px;
+}
+
+.heading1 {
+  padding-left: 80px;
+  left: -1%;
+  position: absolute;
+  top: 190%;
+}
+
+.heading1_1 {
+  padding-right: 100px;
+}
+
+
+
+.btn--blue,
+a.btn--blue {
+  color: #fff;
+  background-color: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+}
+.btn--blue:hover,
+a.btn--blue:hover {
+  color: #fff;
+  background-color: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+}
+a.btn--radius {
+   border-radius: 100vh;
+}
 .btn {
   padding: 8px 24px;
   color: white;
+  background: blue;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
 }
-
 .btn:hover {
   opacity: 1;
 }
+
+
 
 .fa {
   margin-right: 5px;
@@ -84,10 +167,14 @@ header {
   z-index: 10;
 }
 
+
+
 .logo {
   width: 124px;
   margin-top: 10px;
 }
+
+
 
 .header-left {
   float: left;
@@ -109,42 +196,33 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255,255,255,0.3);
+  text-decoration: underline;
 }
 
-.lesson-wrapper {
+/*.lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
-}
+}*/
+
+
+
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #3B4043;
 }
-
 .heading h2 {
   font-weight: normal;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
+.heading h3 {
+  font-weight: normal;
 }
 
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
 
 .text-contents {
   width: 80%;
@@ -154,9 +232,6 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
-}
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -171,45 +246,42 @@ header {
   box-shadow: 0px 7px #1a7940;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
+
+.footer1 { white-space: nowrap;}
 
 
-
-.footer02 {
+.footer1 {
+ top:auto;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
  color: black;
  background: #E8E4E4;
  text-align: left;
- padding: 10px;
+ padding: 8px;
 }
-.footer02 a {
+
+.footer1 a {
  color: black;
  text-decoration: none;
  margin: 30px;
 }
-.footer02 a:hover {
+.footer1 a:hover {
  text-decoration: underline;
 }
-.footer02 .menu {
+.footer1 .menu {
  margin: 0;
  padding: 0;
  list-style: none;
  display: flex;
- flex-wrap: wrap;
+ flex-wrap:nowrap;
  justify-content: center;
 }
-.footer02 .menu li {
+.footer1 .menu li {
  margin: 0;
  padding: 0 30px;
 }
-.footer02 .countainer {
- margin: 10px 50px 20px 0;
- padding: 20px 0 0 0;
-}
-
 
 
 
@@ -239,21 +311,12 @@ header {
     height: 990px;
   }
 
-  footer02 {
+  footer {
     text-align: center;
   }
 }
 
 
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-}
 
 @media all and (max-width: 670px) {
   .header-right {
@@ -264,25 +327,11 @@ header {
     display: block;
   }
 
-  .top-wrapper .btn {
-    width: 100%;
-  }
 
   .twitter {
     margin-top: 10px;
   }
 
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
 
   .lesson {
     width: 100%;
