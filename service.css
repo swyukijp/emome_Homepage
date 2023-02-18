@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN"; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.btn-wrapper {
+  text-align: center; }
+
+.btn-wrapper:p {
+  margin-bottom: 20px; }
+
+.signup {
+  background-color: #239b76; }
+
+.example {
+  position: absplute; }
+
+.example img {
+  white-space: nowrap;
+  width: 100%; }
+
+.example h1 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+  font-family: Quicksand, sans-serif;
+  top: 93%;
+  right: -3%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
+  margin: 0;
+  padding: 0; }
+
+.example p {
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-family: Quicksand, sans-serif;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-10%, -10%);
+  -webkit-transform: translate(-10%, -10%);
+  transform: translate(-50%, 40%);
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 124px;
+  margin-top: 10px; }
+
+.fa {
+  margin-right: 5px; }
+
+.header-left {
+  float: left; }
+
+.header-right {
+  float: right;
+  margin-right: -25px; }
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s; }
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: underline; }
+
+.heading h1 {
+  padding-top: 30px;
+  padding-left: 50px;
+  color: #3B4043;
+  justify-content: space-around; }
+
+.aaa {
+  font-size: 80px;
+  padding-bottom: 10px;
+  color: #3B4043;
+  display: flex;
+  justify-content: space-around; }
+
+.bbb {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #777777;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 350px; }
+
+.footer1 {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: black;
+  background: #E8E4E4;
+  text-align: left;
+  padding: 8px; }
+
+.footer1 a {
+  color: black;
+  text-decoration: none;
+  margin: 30px; }
+
+.footer1 a:hover {
+  text-decoration: underline; }
+
+.footer1 .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.footer1 .menu:li {
+  margin: 0;
+  padding: 0 30px; }
+
+/*# sourceMappingURL=service.css.map */
