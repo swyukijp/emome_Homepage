@@ -67,13 +67,11 @@ a {
       display: block;
       width: 20%;
       clear: left;
-      float: left;
       border-top: solid 1px #ccc;
       padding: 20px; }
     .heading dl dd {
-      display: block;
+      display: inline-block;
       width: 80%;
-      float: left;
       border-top: solid 1px #ccc;
       padding: 20px; }
 
